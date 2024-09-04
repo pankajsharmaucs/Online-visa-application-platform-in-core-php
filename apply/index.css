@@ -1,0 +1,67 @@
+   @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins:700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Righteous&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+
+ body {
+
+
+    font-family: 'Lexend Deca', sans-serif;
+      font-size: 14px;
+      color:#242323;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      outline: none!important;
+    }
+
+.btn1{ width:50%!important; height: 65px!important;text-align:center;}
+
+
+.text1:hover{background: #DD362E;color:#fff!important}
+  #process{ float: left;}
+}
+
+#proccesbox{margin-left:100px!important;}
+
+h6{ font-size: 12px!important; padding:2px!important; }
+
+input{height: 33px!important;}
+input[type="file"]{height: 25px!important;}
+select{ height:33px!important; font-size: 15px!important; }
+label{ font-size: 13px!important ; color: #5e5d5c;}
+input[type='date']{font-size: 13px!important}
+
+
+
+@media only screen and (max-width: 990px) {
+
+  #logo{ margin-top: -60px!important ; width: 30%!important}
+  .searchbox{ width: 90%!important; height: auto!important }
+}
+
+
+@media only screen and (max-width:700px)
+{
+
+  #proccesbox{ margin-left:0px!important;  }
+  #row1{ width:100%!important; margin-left: 0px!important; font-size: 14px!important  }
+  #row2{ width:100%!important; margin-left: 0px!important; font-size: 12px!important  }
+
+  h6{ font-size: 10px!important }
+  label{ font-size: 12px!important }
+
+
+}

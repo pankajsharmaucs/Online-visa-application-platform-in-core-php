@@ -1,0 +1,140 @@
+   @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins:700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Righteous&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+ body {
+      /*font-size: 14px;*/
+      color:#000;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      outline: none!important;
+    }
+
+
+img{ cursor: pointer; transition: .3s; }
+
+
+.text1{ color:black!important }
+.text1:hover{ background:#DD362E; color:#fff!important;  }
+ 
+
+
+
+/*-------------------------------------*/
+
+a{ text-decoration: none; color:#fff!important; }
+
+
+
+#logo{ transition: .4s}
+
+
+
+ 
+@media only screen and (max-width: 1208px) {
+
+
+  
+
+  .carousel { height:290px!important; }
+  .carousel img{ height:290px!important; }
+  #headtxt{ font-size: 14px!important; }
+
+#btnnew{ width: 100%!important;  }
+#logo{ width:35%!important; }
+
+.text1{ font-size:12px!important ; margin-right:1px;}
+.text1:hover{ color:#fff!important;}
+
+}
+
+@media only screen and (max-width: 712px) {
+
+  .carousel { height:250px!important; }
+  .carousel img{ height:250px!important; }
+    #headtxt{ font-size: 13px!important; }
+    #logo{ width: 20%!important; }
+
+
+  h5{ font-size: 17px!important }
+  h6{ font-size: 13px!important }
+
+}
+
+@media only screen and (max-width: 512px) {
+
+  .carousel { height:200px!important; }
+  .carousel img{ height:200px!important; }
+  #headtxt{ font-size: 10px!important; }
+
+      #logo{ width: 15%!important; }
+
+  p{ font-size: 13px!important; }
+
+  #btnnew{ width: 35%!important;  }
+
+  .cardtxt2{ height: 100px!important;  }
+
+  h5{ font-size: 19px!important }
+  h6{ font-size: 12px!important }
+} 
+
+
+
+@media only screen and (max-width: 990px) {
+
+  #logo{ margin-top: -60px!important ; width: 30%!important}
+  .searchbox{ width: 90%!important; height: auto!important }
+}
+
+
+
+@media only screen and (max-width: 400px) {
+
+
+  
+  h1{ font-size:24px!important; }
+  h2{ font-size:18px!important; }
+  h3{ font-size:16px!important; }
+  h4{ font-size:14px!important; }
+  h5{ font-size:12px!important; }
+  h6{ font-size:11px!important; }
+
+  .carousel { height:140px!important; }
+  .carousel img{ height:140px!important; }
+
+      #logo{ width: 100px!important;  position: absolute; top: 70px; left: 3%; z-index: 111111 }
+
+      #logo2{ width: 60%!important }
+
+      .card #testi{ height:140px!important; }
+
+        .cardtxt2{ height: 200px!important;  }
+
+
+
+}
+
+.card1{ transition: .6s; cursor: pointer; }
+.card1:hover{transform: scale(1.1); box-shadow:1px 1px 3px 3px #1119;}
+
+
+/*
+.card2{ transition: .6s; cursor: pointer; }
+.card2:hover{transform: scale(.9); box-shadow:1px 1px 3px 3px #1119;}
+
+
+*/
